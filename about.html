@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <title> Portfolio </title>
+      <script src="js\jquery-3.3.1.min.js"></script>
+      <meta charset="utf-8">
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="portfolio.css">
+  </head>
+
+<body>
+  <nav>
+    <div class="nav-wrapper #8c9eff indigo accent-1">
+      <a href="#" class="brand-logo">My portfolio</a>
+      <a href="#" data-target="mobile-link" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact Me</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav" id="mobile-link">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About Me</a></li>
+    <li><a href="portfolio.html">Portfolio</a></li>
+    <li><a href="contact.html">Contact Me</a></li>
+  </ul>
+
+  <section>
+    <p>
+      My name is Robert Wong. I am a Junior Front End Developer, and I live in</br>
+      in San Francisco.
+    </p>
+  </section>
+<script>
+  $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+</script>
+      <!-- Compiled and minified JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+  </html>
